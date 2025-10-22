@@ -23,7 +23,8 @@ class WeatherSearchAdd extends StatelessWidget {
               child: Container(
                 width: 352,
                 height: 352,
-                decoration: const BoxDecoration(
+                // --- ⛔️ تم إزالة 'const' من هنا ---
+                decoration: BoxDecoration( 
                   shape: BoxShape.circle,
                   gradient: AngularGradient(
                     colors: [
@@ -43,7 +44,8 @@ class WeatherSearchAdd extends StatelessWidget {
               child: Container(
                 width: 365,
                 height: 365,
-                decoration: const BoxDecoration(
+                // --- ⛔️ وتم إزالة 'const' من هنا ---
+                decoration: BoxDecoration(
                   shape: BoxShape.circle,
                   gradient: AngularGradient(
                     colors: [
