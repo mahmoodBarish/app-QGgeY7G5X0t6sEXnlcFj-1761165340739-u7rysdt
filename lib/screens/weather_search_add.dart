@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:go_router/go_router.dart';
-
+import 'dart:ui'; // <--- 🌟 هذا هو السطر الذي تم إضافته
 
 class WeatherSearchAdd extends StatelessWidget {
   const WeatherSearchAdd({super.key});
@@ -23,8 +23,8 @@ class WeatherSearchAdd extends StatelessWidget {
               child: Container(
                 width: 352,
                 height: 352,
-                // --- ⛔️ تم إزالة 'const' من هنا ---
-                decoration: BoxDecoration( 
+                // --- ⛔️ 'const' مزالة هنا (صحيح) ---
+                decoration: BoxDecoration(
                   shape: BoxShape.circle,
                   gradient: AngularGradient(
                     colors: [
@@ -44,7 +44,7 @@ class WeatherSearchAdd extends StatelessWidget {
               child: Container(
                 width: 365,
                 height: 365,
-                // --- ⛔️ وتم إزالة 'const' من هنا ---
+                // --- ⛔️ 'const' مزالة هنا (صحيح) ---
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
                   gradient: AngularGradient(
