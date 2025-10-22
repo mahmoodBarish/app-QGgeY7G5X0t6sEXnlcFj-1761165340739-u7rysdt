@@ -99,7 +99,8 @@ class _WeatherHomeState extends State<WeatherHome>
       children: [
         Text(
           'Montreal',
-          style: GoogleFonts.sfProDisplay(
+          // --- 🌟 تم التعديل هنا ---
+          style: GoogleFonts.poppins(
             fontSize: 34,
             fontWeight: FontWeight.w400,
             color: Colors.white,
@@ -108,7 +109,8 @@ class _WeatherHomeState extends State<WeatherHome>
         ),
         Text(
           '19°',
-          style: GoogleFonts.sfProDisplay(
+          // --- 🌟 تم التعديل هنا ---
+          style: GoogleFonts.poppins(
             fontSize: 96,
             fontWeight: FontWeight.w200,
             color: Colors.white,
@@ -117,7 +119,8 @@ class _WeatherHomeState extends State<WeatherHome>
         ),
         Text(
           'Mostly Clear',
-          style: GoogleFonts.sfProDisplay(
+          // --- 🌟 تم التعديل هنا ---
+          style: GoogleFonts.poppins(
             fontSize: 20,
             fontWeight: FontWeight.w600,
             color: const Color(0x99EBEBF5),
@@ -127,7 +130,8 @@ class _WeatherHomeState extends State<WeatherHome>
         const SizedBox(height: 4),
         Text(
           'H:24°   L:18°',
-          style: GoogleFonts.sfProDisplay(
+          // --- 🌟 تم التعديل هنا ---
+          style: GoogleFonts.poppins(
             fontSize: 20,
             fontWeight: FontWeight.w600,
             color: Colors.white,
@@ -188,9 +192,11 @@ class _WeatherHomeState extends State<WeatherHome>
         indicatorColor: Colors.white,
         indicatorWeight: 3,
         indicatorSize: TabBarIndicatorSize.label,
-        labelStyle: GoogleFonts.sfProText(
+        // --- 🌟 تم التعديل هنا ---
+        labelStyle: GoogleFonts.poppins(
             fontSize: 15, fontWeight: FontWeight.w600, letterSpacing: -0.5),
-        unselectedLabelStyle: GoogleFonts.sfProText(
+        // --- 🌟 تم التعديل هنا ---
+        unselectedLabelStyle: GoogleFonts.poppins(
             fontSize: 15, fontWeight: FontWeight.w600, letterSpacing: -0.5),
         tabs: const [
           Tab(text: 'Hourly Forecast'),
@@ -352,7 +358,8 @@ class _ForecastCard extends StatelessWidget {
         children: [
           Text(
             time,
-            style: GoogleFonts.sfProText(
+            // --- 🌟 تم التعديل هنا ---
+            style: GoogleFonts.poppins(
               fontSize: 15,
               fontWeight: FontWeight.w600,
               color: Colors.white,
@@ -361,7 +368,8 @@ class _ForecastCard extends StatelessWidget {
           Image.asset(iconPath, width: 32, height: 32),
           Text(
             temperature,
-            style: GoogleFonts.sfProDisplay(
+            // --- 🌟 تم التعديل هنا ---
+            style: GoogleFonts.poppins(
               fontSize: 20,
               fontWeight: FontWeight.w400,
               color: Colors.white,
